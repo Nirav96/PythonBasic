@@ -111,3 +111,8 @@ a, b = 1, 1
 while a <= 10:
      print(a, end= ', ')
      a, b = b, a+b
+
+# import packages
+import modules.fibo as fibo
+
+fibo.fib(10002)
